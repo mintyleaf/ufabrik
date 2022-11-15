@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://denj8gjy2ky5f"]
+
+[ext_resource type="Script" path="res://fabrik_constrained.gd" id="1_mvvtt"]
+
+[node name="fabrik_simple_optimized" type="Node2D"]
+script = ExtResource("1_mvvtt")

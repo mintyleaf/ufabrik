@@ -1,0 +1,37 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="ufabrik"
+run/main_scene="res://fabrik_constrained.tscn"
+config/features=PackedStringArray("4.0", "Forward Plus")
+config/icon="res://icon.svg"
+
+[display]
+
+window/size/viewport_width=960
+window/size/viewport_height=540
+window/size/window_width_override=960
+window/size/window_height_override=540
+window/stretch/scale=2
+
+[editor]
+
+movie_writer/mjpeg_quality=1.0
+movie_writer/movie_file="C:/Users/mintyleaf/Videos/youtube/ufabrik/step_by_step_constraint_demo/record_.png"
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/movie_helper/plugin.cfg")
+
+[rendering]
+
+environment/defaults/default_clear_color=Color(0.121569, 0.121569, 0.121569, 1)

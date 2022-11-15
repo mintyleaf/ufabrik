@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://k7qqpsqk2d3i"]
+
+[ext_resource type="Script" path="res://fabrik_simple_optimized.gd" id="1_4kngg"]
+[ext_resource type="FontFile" uid="uid://i6o73nbmxsfw" path="res://gohufont-11.ttf" id="2_2vmff"]
+
+[node name="fabrik_simple_optimized" type="Node2D"]
+script = ExtResource("1_4kngg")
+
+[node name="info" type="Label" parent="."]
+offset_left = 4.0
+offset_top = 4.0
+offset_right = 44.0
+offset_bottom = 27.0
+theme_override_fonts/font = ExtResource("2_2vmff")
+theme_override_font_sizes/font_size = 11

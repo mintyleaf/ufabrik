@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://d15jen8fk2a5x"]
+
+[ext_resource type="Script" path="res://fabrik_simple.gd" id="1_j6435"]
+
+[node name="fabrik_simple" type="Node2D"]
+script = ExtResource("1_j6435")
